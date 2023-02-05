@@ -29,10 +29,9 @@ public class NYTHttpClient {
     public NYTBestsellersPayloadHttpResponseDTO getBestsellersList() {
         HttpUrl url =
                 HttpUrl.parse(
-                        "%slists/full-overview.json?api-key=%s"
-                                .formatted(apiURL, apiKey));
-        var request = new Request.Builder().get().url(url).build();
-        var response = callClient(request);
+                        String.format("%slists/full-overview.json?api-key=%s", apiURL, apiKey));
+        Request request = new Request.Builder().get().url(url).build();
+        Response response = callClient(request);
         NYTBestsellersPayloadHttpResponseDTO responseBody = fromJson(response, NYTBestsellersPayloadHttpResponseDTO.class);
         response.close();
         return responseBody;
@@ -40,17 +39,17 @@ public class NYTHttpClient {
 
     protected Response callClient(Request request) {
         try {
-            var response = httpClient.newCall(request).execute();
+            Response response = httpClient.newCall(request).execute();
 
             if (response.isSuccessful()) {
                 return response;
             }
 
-            var responseBody = getResponseBody(response);
-            var statusCode = response.code();
+            String responseBody = getResponseBody(response);
+            Integer statusCode = response.code();
 
             throw new RuntimeException(
-                    "External API failed with status code %s, %s: %s".formatted(statusCode, statusCode, responseBody));
+                    String.format("External API failed with status code %s, %s: %s", statusCode, statusCode, responseBody));
         } catch (IOException e) {
             throw new RuntimeException(e.getMessage(), null);
         }
