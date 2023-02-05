@@ -1,0 +1,11 @@
+Coding challenge requirements:
+    GIVEN:
+    You have the BESTSELLERS_OVERVIEW table inside the H2 memory DB
+        -the structure is defined inside the data.sql file
+    You have an HTTP client configured to communicate with the NYT API
+        -the OPEN API structure of the API is defined inside books-product.yaml
+
+    REQUIRED:
+        Modify the existing  /api/v1/last-month-bestsellers endpoint to return a paginated
+        list of bestsellers published in the current month sorted in descending order by
+        published date, category and title.
