@@ -7,5 +7,5 @@ Coding challenge requirements:
 
     REQUIRED:
         Modify the existing  /api/v1/last-month-bestsellers endpoint to return a paginated
-        list of bestsellers published in the current month sorted in descending order by
+        list of bestsellers published in the current month, ranked as number 1 and sorted in descending order by
         published date, category and title.
