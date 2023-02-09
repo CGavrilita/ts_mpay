@@ -4,8 +4,12 @@ Coding challenge requirements:
         -the structure is defined inside the data.sql file
     You have an HTTP client configured to communicate with the NYT API
         -the OPEN API structure of the API is defined inside books-product.yaml
+        A Http Client was configured inside NYTHttpClient
+        A DB Client was configured inside BestsellerOverviewJpaRepository interface
+        Another DB client was configured inside BestsellerOverviewJDBCRepository service
+        An example of API response can be found in the example-api-response.json file
 
     REQUIRED:
         Modify the existing  /api/v1/last-month-bestsellers endpoint to return a paginated
-        list of bestsellers published in the current month, ranked as number 1 and sorted in descending order by
+        list of bestsellers published in the current month overviews, ranked as number 1 and sorted in descending order by
         published date, category and title.
