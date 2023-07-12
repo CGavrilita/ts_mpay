@@ -6,8 +6,11 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.time.LocalDate;
 import java.util.List;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class NYTBestsellersResultsHttpResponseDTO {
+    @JsonProperty("published_date")
     private LocalDate publishedDate;
+    @JsonProperty("previous_published_date")
     private LocalDate previousPublishedDate;
 
     private List<NYTBestsellersListHttpResponseDTO> lists;

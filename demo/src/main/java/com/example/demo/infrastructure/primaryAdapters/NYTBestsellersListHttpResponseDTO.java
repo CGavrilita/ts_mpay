@@ -1,11 +1,10 @@
 package com.example.demo.infrastructure.primaryAdapters;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 
-
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class NYTBestsellersListHttpResponseDTO {
     private Integer listId;
     private String listName;
