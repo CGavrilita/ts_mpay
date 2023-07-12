@@ -1,11 +1,12 @@
 package com.example.demo.infrastructure.primaryAdapters;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 import java.time.LocalDateTime;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class NYTBestsellersBookHttpResponseDTO {
     private Integer rank;
     private Integer weeksOnList;
@@ -82,3 +83,4 @@ public class NYTBestsellersBookHttpResponseDTO {
         return this;
     }
 }
+

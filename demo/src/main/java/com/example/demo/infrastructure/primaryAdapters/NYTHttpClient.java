@@ -27,7 +27,6 @@ public class NYTHttpClient {
     }
 
     public NYTBestsellersPayloadHttpResponseDTO getBestsellersList() {
-        LocalDate date = LocalDate.now();
         HttpUrl url =
                 HttpUrl.parse(
                         String.format("%slists/full-overview.json?api-key=%s", apiURL, apiKey));
