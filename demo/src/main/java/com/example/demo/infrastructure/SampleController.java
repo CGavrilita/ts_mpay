@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.Comparator;
 
 @RestController
 @RequestMapping(value = "/api/v1")
@@ -54,18 +55,35 @@ public class SampleController {
         final int month = (monthParam != null) ? monthParam : currentMonth.getMonthValue();
 
         NYTBestsellersPayloadHttpResponseDTO responseDTO = nytHttpClient.getBestsellersList();
-        List<String> bestsellerTitles = responseDTO.getResults().getLists()
-                .stream()
-                .filter(list -> {
-                    LocalDate publishedDate = responseDTO.getResults().getPublishedDate();
-                    return publishedDate.getYear() == year && publishedDate.getMonthValue() == month;
-                })
-                .flatMap(list -> list.getBooks().stream())
-                .map(NYTBestsellersBookHttpResponseDTO::getTitle)
-                .collect(Collectors.toList());
+        List<String> bestsellerTitles = null;
+
+        if (pageable.getPageNumber() == 0) {
+            bestsellerTitles = responseDTO.getResults().getLists()
+                    .stream()
+                    .filter(list -> {
+                        LocalDate publishedDate = responseDTO.getResults().getPublishedDate();
+                        return publishedDate.getYear() == year && publishedDate.getMonthValue() == month;
+                    })
+                    .flatMap(list -> list.getBooks().stream())
+                    .filter(book -> book.getRank() == 1)
+                    .sorted(Comparator.comparing(book -> book.getDisplayName() + " " + book.getTitle(), Comparator.reverseOrder()))
+                    .map(NYTBestsellersBookHttpResponseDTO::getTitle)
+                    .collect(Collectors.toList());
+        } else if (pageable.getPageNumber() == 1) {
+            bestsellerTitles = responseDTO.getResults().getLists()
+                    .stream()
+                    .filter(list -> {
+                        LocalDate previousPublishedDate = responseDTO.getResults().getPreviousPublishedDate();
+                        return previousPublishedDate.getYear() == year && previousPublishedDate.getMonthValue() == month;
+                    })
+                    .flatMap(list -> list.getBooks().stream())
+                    .filter(book -> book.getRankLastWeek() == 1)
+                    .sorted(Comparator.comparing(book -> book.getDisplayName() + " " + book.getTitle(), Comparator.reverseOrder()))
+                    .map(NYTBestsellersBookHttpResponseDTO::getTitle)
+                    .collect(Collectors.toList());
+        }
 
         return ResponseEntity.ok(bestsellerTitles);
     }
-
 
 }
