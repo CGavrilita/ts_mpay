@@ -9,7 +9,7 @@ CREATE TABLE bestsellers_overview
     published_date timestamp without time zone
 );
 
-INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('0cd7ef39-4475-4241-b2e0-a0dec581f913', 1, 'John Grisham', 'THE RECKONING', 'Combined Print & E-Book Fiction', '2022-11-30');
+INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('0cd7ef39-4475-4241-b2e0-a0dec581f913', 1, 'John Grisham', 'THE RECKONING', 'Combined Print & E-Book Fiction', '2023-07-30');
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('ad9fe20f-a330-46a0-8645-a2c09de36a1e', 2, 'Nicholas Sparks', 'EVERY BREATH', 'Combined Print & E-Book Fiction', '2022-12-01');
 
@@ -39,7 +39,7 @@ INSERT INTO bestsellers_overview(id, rank, author, title, category, published_da
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('34901db8-5c86-42a9-b895-5d0b4cf3469f', 15, 'Marc Cameron', 'TOM CLANCY: OATH OF OFFICE', 'Combined Print & E-Book Fiction', '2023-01-20');
 
-INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('ae87ba09-835c-4699-b8d9-0a0c85937588', 1, 'Michelle Obama', 'BECOMING', 'Combined Print & E-Book Nonfiction', '2022-12-17');
+INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('ae87ba09-835c-4699-b8d9-0a0c85937588', 1, 'Michelle Obama', 'BECOMING', 'Combined Print & E-Book Nonfiction', '2023-07-17');
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('ec1d93fa-3ff7-4094-a064-0d453bd43e08', 2, 'Charles Krauthammer,', 'THE POINT OF IT ALL', 'Combined Print & E-Book Nonfiction', '2022-11-08');
 
@@ -69,7 +69,7 @@ INSERT INTO bestsellers_overview(id, rank, author, title, category, published_da
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('7738be7f-ca93-4a89-b72b-3e3a82951d9f', 15, 'John Carreyrou', 'BAD BLOOD', 'Combined Print & E-Book Nonfiction', '2023-01-30');
 
-INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('b7c3f4a8-a399-45bb-b04f-b69654be63e1', 1, 'John Grisham', 'THE RECKONING', 'Hardcover Fiction', '2022-12-18');
+INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('b7c3f4a8-a399-45bb-b04f-b69654be63e1', 1, 'John Grisham', 'THE RECKONING', 'Hardcover Fiction', '2023-07-18');
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('e2b05092-0b07-4742-98ce-a94caa3d82bb', 2, 'George R.R. Martin', 'FIRE AND BLOOD', 'Hardcover Fiction', '2023-01-30');
 
@@ -99,7 +99,7 @@ INSERT INTO bestsellers_overview(id, rank, author, title, category, published_da
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('33c02f62-94f3-4b63-bb7a-0b665d868ac1', 15, 'James Patterson and Bill Clinton', 'THE PRESIDENT IS MISSING', 'Hardcover Fiction', '2023-01-30');
 
-INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('f7b167da-4739-4bfc-870e-c52236b7841f', 1, 'Michelle Obama', 'BECOMING', 'Hardcover Nonfiction', '2022-11-01');
+INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('f7b167da-4739-4bfc-870e-c52236b7841f', 1, 'Michelle Obama', 'BECOMING', 'Hardcover Nonfiction', '2023-07-01');
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('02bd0d64-ad51-4a2b-94f4-b38949dbbd5c', 2, 'Charles Krauthammer,', 'THE POINT OF IT ALL', 'Hardcover Nonfiction', '2023-02-03');
 
@@ -129,7 +129,7 @@ INSERT INTO bestsellers_overview(id, rank, author, title, category, published_da
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('b6e2859d-b988-4431-9062-ef0d16c04765', 15, 'Kobe Bryant', 'THE MAMBA MENTALITY', 'Hardcover Nonfiction', '2023-02-04');
 
-INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('a3ca2b47-ea3d-43d2-893f-3ab75adcabdd', 1, 'Heather Morris', 'THE TATTOOIST OF AUSCHWITZ', 'Paperback Trade Fiction', '2023-01-19');
+INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('a3ca2b47-ea3d-43d2-893f-3ab75adcabdd', 1, 'Heather Morris', 'THE TATTOOIST OF AUSCHWITZ', 'Paperback Trade Fiction', '2023-07-19');
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('41bc051e-ec0f-468c-9399-76513fe3bda3', 2, 'W Bruce Cameron', 'A DOGS WAY HOME', 'Paperback Trade Fiction', '2022-10-30');
 
@@ -159,7 +159,7 @@ INSERT INTO bestsellers_overview(id, rank, author, title, category, published_da
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('276c7f8a-6d7b-4ef5-b65b-0e51c7406122', 15, 'Greer Hendricks and Sarah Pekkanen', 'THE WIFE BETWEEN US', 'Paperback Trade Fiction', '2022-12-16');
 
-INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('f20aadfa-c800-4ad5-9a6d-d61752edda23', 1, 'Yuval Noah Harari', 'SAPIENS', 'Paperback Nonfiction', '2022-12-08');
+INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('f20aadfa-c800-4ad5-9a6d-d61752edda23', 1, 'Yuval Noah Harari', 'SAPIENS', 'Paperback Nonfiction', '2023-07-08');
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('b310bf5d-20a7-4717-aa59-10317ddc1fdc', 2, 'David Grann', 'KILLERS OF THE FLOWER MOON', 'Paperback Nonfiction', '2022-11-09');
 
@@ -189,7 +189,7 @@ INSERT INTO bestsellers_overview(id, rank, author, title, category, published_da
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('f6210a9c-b3ee-446d-8b3a-e8315f313ad1', 15, 'David Sheff', 'BEAUTIFUL BOY', 'Paperback Nonfiction', '2022-10-31');
 
-INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('2f8958c5-cd21-4b74-97c2-d53d8fde2856', 1, 'Joanna Gaines', 'HOMEBODY', 'Advice, How-To & Miscellaneous', '2022-12-05');
+INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('2f8958c5-cd21-4b74-97c2-d53d8fde2856', 1, 'Joanna Gaines', 'HOMEBODY', 'Advice, How-To & Miscellaneous', '2023-07-05');
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('a6622189-09de-4e0f-8c48-d281c91c7002', 2, 'Rachel Hollis', 'GIRL, WASH YOUR FACE', 'Advice, How-To & Miscellaneous', '2022-11-10');
 
@@ -209,7 +209,7 @@ INSERT INTO bestsellers_overview(id, rank, author, title, category, published_da
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('2595c33f-18e7-4571-a605-00906b9a5fde', 10, 'Reese Witherspoon', 'WHISKEY IN A TEACUP', 'Advice, How-To & Miscellaneous', '2022-12-02');
 
-INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('ed3c45c2-68ea-4ffb-a007-3922ba6eab8d', 1, 'R.J. Palacio', 'WONDER', 'Children’s Middle Grade Hardcover', '2022-12-24');
+INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('ed3c45c2-68ea-4ffb-a007-3922ba6eab8d', 1, 'R.J. Palacio', 'WONDER', 'Children’s Middle Grade Hardcover', '2023-07-24');
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('ae699323-4e75-48d7-84c4-f8ca155a3b10', 2, 'Rachel Ignotofsky', 'WOMEN IN SCIENCE', 'Children’s Middle Grade Hardcover', '2022-12-25');
 
@@ -229,7 +229,7 @@ INSERT INTO bestsellers_overview(id, rank, author, title, category, published_da
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('b691b292-c413-46f6-b4a0-204fe0a60700', 10, 'Tracey Baptiste', 'MINECRAFT: THE CRASH', 'Children’s Middle Grade Hardcover', '2022-12-16');
 
-INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('6eeee1a4-7ee7-45da-bdb8-c1fdd5551038', 1, 'Adam Rubin.', 'DRAGONS LOVE TACOS', 'Children’s Picture Books', '2022-12-30');
+INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('6eeee1a4-7ee7-45da-bdb8-c1fdd5551038', 1, 'Adam Rubin.', 'DRAGONS LOVE TACOS', 'Children’s Picture Books', '2023-07-30');
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('1f092565-7284-4a1e-9364-44d9930a163b', 2, 'Sherri Duskey Rinker.', 'CONSTRUCTION SITE ON CHRISTMAS NIGHT', 'Children’s Picture Books', '2022-12-17');
 
@@ -249,7 +249,7 @@ INSERT INTO bestsellers_overview(id, rank, author, title, category, published_da
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('1750102c-6b37-4b95-b9de-310879d4d819', 10, 'Clement C Moore Various illustrators', 'THE NIGHT BEFORE CHRISTMAS', 'Children’s Picture Books', '2022-11-20');
 
-INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('76903630-ba08-4558-b1cf-441129ac8876', 1, 'and   Jeff Kinney', 'DIARY OF A WIMPY KID', 'Children’s Series', '2022-12-01');
+INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('76903630-ba08-4558-b1cf-441129ac8876', 1, 'and   Jeff Kinney', 'DIARY OF A WIMPY KID', 'Children’s Series', '2023-07-01');
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('0a14d794-95aa-4b62-ad1e-4a24955f55f5', 2, 'J.K. Rowling', 'HARRY POTTER', 'Children’s Series', '2022-12-24');
 
@@ -269,7 +269,7 @@ INSERT INTO bestsellers_overview(id, rank, author, title, category, published_da
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('6a8de708-7b65-4249-b8c0-a305c23057c5', 10, 'Ann M. Martin; various illustrators', 'BABY-SITTERS CLUB GRAPHIX', 'Children’s Series', '2023-02-02');
 
-INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('fd14587b-130f-4847-b5e8-2e3ce6c89938', 1, 'Angie Thomas', 'THE HATE U GIVE', 'Young Adult Hardcover', '2022-12-11');
+INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('fd14587b-130f-4847-b5e8-2e3ce6c89938', 1, 'Angie Thomas', 'THE HATE U GIVE', 'Young Adult Hardcover', '2023-07-11');
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('e75f43ab-9f72-4bcf-aa35-de5a15bb7293', 2, 'Val Emmich with Steven Levenson, Benj Pasek & Justin Paul', 'DEAR EVAN HANSEN: THE NOVEL', 'Young Adult Hardcover', '2022-11-14');
 
@@ -289,7 +289,7 @@ INSERT INTO bestsellers_overview(id, rank, author, title, category, published_da
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('73077827-2e29-4eab-b2cb-635102bc754a', 10, 'Natasha Ngan', 'GIRLS OF PAPER AND FIRE', 'Young Adult Hardcover', '2023-01-24');
 
-INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('09a42674-3f2c-488b-80ce-ad7b2a9b5bfb', 1, 'Delia Owens', 'WHERE THE CRAWDADS SING', 'Audio Fiction', '2023-01-24');
+INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('09a42674-3f2c-488b-80ce-ad7b2a9b5bfb', 1, 'Delia Owens', 'WHERE THE CRAWDADS SING', 'Audio Fiction', '2023-07-24');
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('407a98e6-4c00-4418-af07-778e013bbaae', 2, 'Nora Roberts', 'OF BLOOD AND BONE', 'Audio Fiction', '2022-11-16');
 
@@ -319,7 +319,7 @@ INSERT INTO bestsellers_overview(id, rank, author, title, category, published_da
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('070acd2a-1d06-43bf-b46b-f93deaef8d43', 15, 'George RR Martin', 'A GAME OF THRONES', 'Audio Fiction', '2022-11-04');
 
-INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('6c1ba8d8-66e3-4803-bd70-283a9beadf79', 1, 'Michelle Obama', 'BECOMING', 'Audio Nonfiction', '2022-11-09');
+INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('6c1ba8d8-66e3-4803-bd70-283a9beadf79', 1, 'Michelle Obama', 'BECOMING', 'Audio Nonfiction', '2023-07-09');
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('e562b31b-aa90-46e8-8513-75300b4f32b6', 2, 'Tara Westover', 'EDUCATED', 'Audio Nonfiction', '2022-12-15');
 
@@ -349,7 +349,7 @@ INSERT INTO bestsellers_overview(id, rank, author, title, category, published_da
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('4680f22f-e147-4a9e-a620-55712cd1f2b5', 15, 'Michael Diamond and Adam Horovitz', 'BEASTIE BOYS BOOK', 'Audio Nonfiction', '2022-11-02');
 
-INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('58b68e8b-b411-4b29-80a7-6ed42561197a', 1, 'Doris Kearns Goodwin', 'LEADERSHIP', 'Business', '2022-11-07');
+INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('58b68e8b-b411-4b29-80a7-6ed42561197a', 1, 'Doris Kearns Goodwin', 'LEADERSHIP', 'Business', '2021-07-07');
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('369fc882-516e-4b8a-b302-74ac2e72cc59', 2, 'Brené Brown', 'DARE TO LEAD', 'Business', '2023-01-10');
 
@@ -369,7 +369,7 @@ INSERT INTO bestsellers_overview(id, rank, author, title, category, published_da
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('a695fd0f-9a1b-4fcd-bab2-56ae60d107aa', 10, 'Angela Duckworth', 'GRIT', 'Business', '2022-12-23');
 
-INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('dc58c0ac-abdf-4897-a2ae-637212e173c5', 1, 'Yuval Noah Harari', 'SAPIENS', 'Science', '2022-12-10');
+INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('dc58c0ac-abdf-4897-a2ae-637212e173c5', 1, 'Yuval Noah Harari', 'SAPIENS', 'Science', '2023-07-10');
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('0b6b7e53-b6d4-4d41-858c-c1b7ffb025f5', 2, 'Stephen Hawking', 'BRIEF ANSWERS TO THE BIG QUESTIONS', 'Science', '2022-12-29');
 
@@ -389,7 +389,7 @@ INSERT INTO bestsellers_overview(id, rank, author, title, category, published_da
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('e37aa0e0-ae4a-43b0-9be1-005ba1f2210a', 10, 'Paul Kalanithi', 'WHEN BREATH BECOMES AIR', 'Science', '2022-11-01');
 
-INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('76edb506-f5d1-4594-8ec7-692e461bcab9', 1, 'Kobe Bryant', 'THE MAMBA MENTALITY', 'Sports and Fitness', '2023-01-01');
+INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('76edb506-f5d1-4594-8ec7-692e461bcab9', 1, 'Kobe Bryant', 'THE MAMBA MENTALITY', 'Sports and Fitness', '2024-07-01');
 
 INSERT INTO bestsellers_overview(id, rank, author, title, category, published_date) VALUES ('d0390846-a388-4043-b559-313237919a33', 2, 'Jane Leavy', 'THE BIG FELLA', 'Sports and Fitness', '2023-01-30');
 
